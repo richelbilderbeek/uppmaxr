@@ -18,5 +18,9 @@ remotes::install_github("richelbilderbeek/uppmaxr")
 ```
 library(uppmaxr)
 is_on_gha()
+is_on_rackham_login_node()
 is_on_rackham_runner_node()
+is_on_bianca_login_node()
+is_on_bianca_runner_node()
+
 ```

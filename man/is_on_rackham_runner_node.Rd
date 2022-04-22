@@ -16,6 +16,13 @@ Determine if the environment is a Rackham runner node
 \examples{
 is_on_rackham_runner_node()
 }
+\seealso{
+Use \link{is_on_rackham_login_node} to determine
+if the environment is a Rackham login node.
+
+Use \link{is_on_bianca_runner_node} to determine
+if the environment is a Bianca runner node.
+}
 \author{
 Richèl J.C. Bilderbeek
 }
