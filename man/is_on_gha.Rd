@@ -15,6 +15,12 @@ Determine if the environment is GitHub Actions
 }
 \examples{
 is_on_gha()
+
+# Not on GHA
+is_on_gha("")
+
+# On GHA
+is_on_gha("GITHUB_ACTIONS")
 }
 \author{
 Richèl J.C. Bilderbeek

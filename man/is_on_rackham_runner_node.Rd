@@ -15,6 +15,7 @@ Determine if the environment is a Rackham runner node
 }
 \examples{
 is_on_rackham_runner_node()
+is_on_rackham_runner_node(host_name = "r123")
 }
 \seealso{
 Use \link{is_on_rackham_login_node} to determine

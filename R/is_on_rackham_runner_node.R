@@ -8,6 +8,7 @@
 #' if the environment is a Bianca runner node.
 #' @examples
 #' is_on_rackham_runner_node()
+#' is_on_rackham_runner_node(host_name = "r123")
 #' @author Richèl J.C. Bilderbeek
 #' @export
 is_on_rackham_runner_node <- function(
