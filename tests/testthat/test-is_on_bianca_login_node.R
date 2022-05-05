@@ -1,6 +1,8 @@
 test_that("use", {
   expect_false(is_on_bianca_login_node())
-  expect_true(is_on_bianca_login_node(host_name = "sens2021565-bianca.uppmax.uu.se"))
+  expect_true(
+    is_on_bianca_login_node(host_name = "sens2021565-bianca.uppmax.uu.se")
+  )
   expect_false(is_on_bianca_login_node(host_name = "r1"))
   expect_false(is_on_bianca_login_node(host_name = "r12"))
   expect_false(is_on_bianca_login_node(host_name = "r123"))
@@ -12,4 +14,3 @@ test_that("use", {
   expect_error(is_on_bianca_login_node(host_name = 42))
   expect_error(is_on_bianca_login_node(host_name = c("r1", "r12")))
 })
-
